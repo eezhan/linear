@@ -193,6 +193,7 @@ else
     DetectedUnderGround = false
 end
 
+local TargetCF = nil
 if TargetCF ~= nil then
     if DetectedDesync then
         local MoveDirection = TargetMov * 16
